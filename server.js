@@ -2,9 +2,9 @@
 var express = require('express');
 
 // var session = require('express-session');
-var cookieParser = require('cookie-parser');
+// var cookieParser = require('cookie-parser');
 // var json = require('express-json');
-var cookie = require('cookie');
+// var cookie = require('cookie');
 
 // Require path
 var path = require('path');
@@ -17,7 +17,7 @@ var bodyParser = require('body-parser');
 // new code:
 var session = require('express-session');
 // original code:
-app.use(cookieParser());
+// app.use(cookieParser());
 // more new code:
 app.use(session({secret: 'ilovejavascript'}));  // string for encryption
 
