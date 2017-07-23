@@ -11,7 +11,7 @@ var models_path = path.join(__dirname, './../models');
 var reg           = new RegExp( ".js$", "i" )
 
 
-var dbURI         = 'mongodb://localhost/similar_doctors';
+var dbURI         = 'mongodb://localhost/same_doctors';
 mongoose.Promise = global.Promise;
 mongoose.connect( dbURI );
 
